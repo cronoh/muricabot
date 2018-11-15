@@ -1,0 +1,19 @@
+{
+  "name": "cronohbot",
+  "version": "1.0.0",
+  "description": "A basic IRC bot in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "rm -rf dist && tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Steele",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "irc": "^0.5.2"
+  },
+  "devDependencies": {
+    "@types/irc": "^0.3.32"
+  }
+}
