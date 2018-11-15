@@ -1,11 +1,14 @@
 import { Client } from "irc";
 
 const muricaMessage = `Did someone mention... FREEDOM?! 🇺🇸🇺🇸🇺🇸 ̿'̿'\\̵͇̿̿\\з=( ͠° ͟ʖ ͡°)=ε/̵͇̿̿/'̿̿ ̿ ̿ ̿ ̿ ̿  🇺🇸🇺🇸🇺🇸`;
+const muricaVsWorld1 = `FREEDOM PREVAILS 🇺🇸 (⌐■_■)–︻╦╤─ • • • • • 🇩🇪`;
+const muricaVsWorld2 = `FREEDOM PREVAILS 🇺🇸 (⌐■_■)–︻╦╤─ • • • • • 🇷🇺`;
+const muricaVsWorld3 = `FREEDOM PREVAILS 🇺🇸 (⌐■_■)–︻╦╤─ • • • • • 🇨🇳`;
 
 const keywordList = [
   {
     keywords: ['murica', 'freeedom'],
-    responses: [muricaMessage]
+    responses: [muricaMessage, muricaVsWorld1, muricaVsWorld2, muricaVsWorld3]
   },
 ];
 

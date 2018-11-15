@@ -3,12 +3,11 @@ import * as command from './command';
 import * as keyword from './keyword';
 import * as question from './question';
 
-
 export async function handle(client: Client, channel: string, user: string, message: string) {
   const responders = [
     command,
-    keyword,
     question,
+    keyword,
   ];
 
   let handled = false;
